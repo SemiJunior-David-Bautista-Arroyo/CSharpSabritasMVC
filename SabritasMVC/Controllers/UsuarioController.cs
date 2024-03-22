@@ -53,7 +53,7 @@ namespace SabritasMVC.Controllers
 
         public async Task<ActionResult> VerCarrito()
         {
-            int idusr = 1;
+            int idusr = Convert.ToInt16(Session["UsuarioId"]);
             bll = new Negocios();
             List<Carrito> listcar = await bll.VerCarrito(idusr);
             if (listcar != null)
@@ -70,7 +70,7 @@ namespace SabritasMVC.Controllers
         public async Task<ActionResult> Agregar(string nombre, double cantidad, string descripcion, double precio, string imagen)
         {
             
-            int idusr = 1;
+            int idusr = Convert.ToInt16(Session["UsuarioId"]);
             bll = new Negocios();
             await bll.AgregarCarrito( nombre, cantidad, descripcion, precio,imagen, idusr);
             return RedirectToAction("VerCarrito");
@@ -86,7 +86,7 @@ namespace SabritasMVC.Controllers
         }
         public async Task<ActionResult> Comprar(int id, double total, string producto)
         {
-            int usuarioid = 1;
+            int usuarioid = Convert.ToInt16(Session["UsuarioId"]);
             bll = new Negocios();
             int idCarrito = id;
             await bll.Agregar(id, total, usuarioid, producto);

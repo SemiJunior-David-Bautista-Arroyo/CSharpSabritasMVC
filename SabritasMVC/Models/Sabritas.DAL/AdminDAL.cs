@@ -111,7 +111,7 @@ namespace SabritasMVC.Models.Sabritas.DAL
                                 Nombre = sdr["Nombre"].ToString(),
                                 Apellido = sdr["Apellido"].ToString(),
                                 Correo = sdr["Correo"].ToString(),
-                                Passwd = sdr["Password"].ToString(),
+                                Passwd = sdr["Passwd"].ToString(),
                                 RolId = Convert.ToInt32(sdr["RolId"])
                             });
                         }
@@ -195,7 +195,7 @@ namespace SabritasMVC.Models.Sabritas.DAL
                                 Nombre = sdr["Nombre"].ToString(),
                                 Apellido = sdr["Apellido"].ToString(),
                                 Correo = sdr["Correo"].ToString(),
-                                Passwd = sdr["Password"].ToString(),
+                                Passwd = sdr["Passwd"].ToString(),
                                 RolId = Convert.ToInt32(sdr["RolId"])
 
                             });

@@ -125,8 +125,8 @@
     <Content Include="Views\Admin\ListarUsuarios.cshtml" />
     <Content Include="Views\Admin\Comprados.cshtml" />
     <Content Include="Views\Usuario\ComprasHechas.cshtml" />
-    <Content Include="Views\Admin\ProductosUsuarios.cshtml" />
     <Content Include="Views\Acceso\Loguin.cshtml" />
+    <Content Include="Views\Admin\ProductosUsuarios.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

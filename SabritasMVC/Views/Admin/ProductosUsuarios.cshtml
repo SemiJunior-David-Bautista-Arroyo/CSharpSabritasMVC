@@ -4,56 +4,58 @@
     ViewBag.Title = "ProductosUsuarios";
     Layout = "~/Views/Shared/_LayoutPage2.cshtml";
 }
-<br />
-<div class="container bg-dark text-light">
-    <h2>ProductosUsuarios</h2>
 
-    <table class="table bg-dark text-light">
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.UsuarioId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Apellido)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Correo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Passwd)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RolId)
-            </th>
-            <th></th>
-        </tr>
+<h2>Productos Usuarios</h2>
 
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UsuarioId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nombre)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Apellido)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Correo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Passwd)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.RolId)
-                </td>
-            </tr>
-        }
+<table class="table bg-dark text-light">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UsuarioId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Correo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RolId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Passwd)
+        </th>
+        <th></th>
+    </tr>
 
-    </table>
-</div>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UsuarioId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Apellido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Correo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RolId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Passwd)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
