@@ -1,0 +1,50 @@
+﻿@model IEnumerable<SabritasMVC.Models.Entities.Productos>
+
+@{
+    ViewBag.Title = "Listar";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Lista De Productos</h2>
+
+<table class="table bg-dark text-light" border="1" >
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Imagen)
+        </th>
+        <th>Agregar Al carrito</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Imagen)
+        </td>
+        <td>   
+            <form action="@Url.Action("Agregar", "Usuario")" method="post">
+                <input type="hidden" name="nombre" value="@item.Nombre" />
+                <input type="number" name="cantidad" value="0" min="0" />
+                <input type="hidden" name="descripcion" value="@item.Descripcion" />
+                <input type="hidden" name="precio" value="@item.Precio" />
+                <input type="hidden" name="imagen" value="@item.Imagen" />
+                <input type="submit" value="Agregar al carrito" />
+            </form> |
+            @Html.ActionLink("Ver detalles", "Detalles", new {id = item.ProductoId })
+            
+        </td>
+    </tr>
+}
+
+</table>

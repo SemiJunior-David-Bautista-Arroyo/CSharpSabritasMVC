@@ -1,0 +1,45 @@
+﻿@model IEnumerable<SabritasMVC.Models.Entities.Compras>
+
+@{
+    ViewBag.Title = "Comprados";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+<br />
+<div class="container bg-dark text-light">
+    <h2>Comprados</h2>
+
+    <table class="table bg-dark text-light">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CarritoId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioId)
+            </th><th>
+                @Html.DisplayNameFor(model => model.Producto)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarritoId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Total)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UsuarioId)
+                </td><td>
+                    @Html.DisplayFor(modelItem => item.Producto)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+</div>

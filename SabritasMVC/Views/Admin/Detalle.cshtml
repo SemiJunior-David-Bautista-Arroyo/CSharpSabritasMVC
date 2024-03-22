@@ -1,0 +1,54 @@
+﻿@model SabritasMVC.Models.Entities.Productos
+
+@{
+    ViewBag.Title = "Detalle";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<br />
+<div class="container  bg-dark text-light">
+<h2>Detalles Del Producto</h2>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductoId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Imagen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Imagen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+    </dl>
+</div>

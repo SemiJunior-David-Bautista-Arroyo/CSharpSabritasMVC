@@ -1,0 +1,55 @@
+﻿@model IEnumerable<SabritasMVC.Models.Entities.Carrito>
+
+@{
+    ViewBag.Title = "VerCarrito";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>VerCarrito</h2>
+
+<table class="table bg-dark text-light">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Imagen)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cantidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Imagen)
+        </td>
+        <td>
+            @Html.ActionLink("Realizar Compra", "Comprar", new { id = item.CarritoId, total = item.Precio, producto = item.Nombre}) |
+            @Html.ActionLink("Cancelar Compra", "Borrar", new { id = item.CarritoId })
+        </td>
+    </tr>
+}
+
+</table>
+

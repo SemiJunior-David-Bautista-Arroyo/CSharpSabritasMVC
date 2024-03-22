@@ -1,0 +1,56 @@
+﻿@model IEnumerable<SabritasMVC.Models.Entities.Productos>
+
+@{
+    ViewBag.Title = "Listar";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+
+<h2>Lista De Productos</h2>
+<div></div>
+<table class="table bg-dark text-light">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Imagen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>Opciones</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Imagen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descripcion)
+        </td>
+        <td>
+            @Html.ActionLink("Editar Producto", "EditarProd", new { id = item.ProductoId }) |
+            @Html.ActionLink("Detalles Producto", "Detalle", new { id = item.ProductoId }) |
+            @Html.ActionLink("Eliminar Producto", "Borrar", new { id = item.ProductoId }) |
+            @Html.ActionLink("Quien ha Comprado", "ProductosUsuarios", new { producto = item.Nombre})
+        </td>
+    </tr>
+}
+
+</table>

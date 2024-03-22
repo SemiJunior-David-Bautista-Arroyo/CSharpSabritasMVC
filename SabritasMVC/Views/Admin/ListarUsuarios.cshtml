@@ -1,0 +1,64 @@
+﻿@model IEnumerable<SabritasMVC.Models.Entities.Usuarios>
+
+@{
+    ViewBag.Title = "ListarUsuarios";
+    Layout = "~/Views/Shared/_LayoutPage2.cshtml";
+}
+<br />
+<div class="bg-dark text-light container">
+    <h2>ListarUsuarios</h2>
+
+
+    <table class="table table-dark text-light">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Passwd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RolId)
+            </th>
+
+            <th>Opciones</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UsuarioId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Passwd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RolId)
+                </td>
+                <td>
+                    @Html.ActionLink("Ver articulos Comprados", "Comprados", new { id = item.UsuarioId})
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
