@@ -89,6 +89,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Imagenes\cheetos_flamin_hot.jpg" />
+    <Content Include="Imagenes\crujitos_limon.jpg" />
+    <Content Include="Imagenes\doritos_nacho.jpg" />
+    <Content Include="Imagenes\fritos_chorizo.jpg" />
+    <Content Include="Imagenes\imagen.jpg" />
+    <Content Include="Imagenes\ruffles_queso.jpg" />
+    <Content Include="Imagenes\sabritas_original.jpg" />
+    <Content Include="Imagenes\tostitos_salsa_verde.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -30,7 +30,7 @@
             @Html.DisplayFor(modelItem => item.Precio)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Imagen)
+            <img src="@Url.Content("~/Imagenes/" + item.Imagen)" alt="Imagen" width="50" />
         </td>
         <td>   
             <form action="@Url.Action("Agregar", "Usuario")" method="post">

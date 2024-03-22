@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\chang\\Downloads\\SabritasMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\views\\acceso\\loguin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\views\\admin\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\views\\admin\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\views\\usuario\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\views\\usuario\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|c:\\users\\chang\\downloads\\sabritasmvc\\sabritasmvc\\views\\usuario\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\views\\usuario\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|c:\\users\\chang\\downloads\\sabritasmvc\\sabritasmvc\\views\\acceso\\loguin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\views\\acceso\\loguin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|c:\\users\\chang\\downloads\\sabritasmvc\\sabritasmvc\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -23,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\models\\sabritas.dal\\admindal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\models\\sabritas.dal\\productosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\models\\sabritas.dal\\productosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,20 +47,12 @@
       "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\models\\sabritas.bll\\negocios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\views\\usuario\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\views\\usuario\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\models\\entities\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\models\\entities\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\views\\admin\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|solutionrelative:sabritasmvc\\views\\admin\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96AEC781-7048-418E-B401-C5D7236A2571}|SabritasMVC\\SabritasMVC.csproj|C:\\Users\\chang\\Downloads\\SabritasMVC\\sabritasmvc\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 31,
           "Children": [
             {
               "$type": "Bookmark",
@@ -163,6 +167,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Usuario\\Error.cshtml",
+              "RelativeDocumentMoniker": "SabritasMVC\\Views\\Usuario\\Error.cshtml",
+              "ToolTip": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Usuario\\Error.cshtml",
+              "RelativeToolTip": "SabritasMVC\\Views\\Usuario\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T13:57:04.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ComprasHechas.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Usuario\\ComprasHechas.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Usuario\\ComprasHechas.cshtml",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Carrito.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Models\\Entities\\Carrito.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Models\\Entities\\Carrito.cs",
@@ -186,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProductosUsuarios.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Admin\\ProductosUsuarios.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Admin\\ProductosUsuarios.cshtml",
@@ -198,19 +215,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Usuario\\Listar.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Usuario\\Listar.cshtml",
               "ToolTip": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Usuario\\Listar.cshtml",
               "RelativeToolTip": "SabritasMVC\\Views\\Usuario\\Listar.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAACkAAABCAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-22T13:19:59.117Z"
+              "WhenOpened": "2024-03-22T13:19:59.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "VerCarrito.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Usuario\\VerCarrito.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Usuario\\VerCarrito.cshtml",
@@ -222,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "_LayoutPage2.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Shared\\_LayoutPage2.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Shared\\_LayoutPage2.cshtml",
@@ -234,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "_LayoutPage1.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Shared\\_LayoutPage1.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Shared\\_LayoutPage1.cshtml",
@@ -242,12 +260,11 @@
               "RelativeToolTip": "SabritasMVC\\Views\\Shared\\_LayoutPage1.cshtml",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAABUAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-22T05:53:05.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T05:53:05.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Models\\Entities\\Usuarios.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Models\\Entities\\Usuarios.cs",
@@ -259,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Loguin.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Acceso\\Loguin.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Acceso\\Loguin.cshtml",
@@ -272,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Comprados.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Admin\\Comprados.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Admin\\Comprados.cshtml",
@@ -284,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ListarUsuarios.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Admin\\ListarUsuarios.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Admin\\ListarUsuarios.cshtml",
@@ -296,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ProductosDAL.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Models\\Sabritas.DAL\\ProductosDAL.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Models\\Sabritas.DAL\\ProductosDAL.cs",
@@ -308,31 +325,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Admin\\Listar.cshtml",
               "RelativeDocumentMoniker": "SabritasMVC\\Views\\Admin\\Listar.cshtml",
               "ToolTip": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Views\\Admin\\Listar.cshtml",
               "RelativeToolTip": "SabritasMVC\\Views\\Admin\\Listar.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAADgvx0AAAATAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-22T04:05:29.227Z"
+              "WhenOpened": "2024-03-22T04:05:29.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "SabritasMVC\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAAAGcAAAAjAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T01:59:45.287Z"
+              "WhenOpened": "2024-03-22T01:59:45.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Controllers\\AdminController.cs",
@@ -344,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AccesoController.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Controllers\\AccesoController.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Controllers\\AccesoController.cs",
@@ -356,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "AdminDAL.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Models\\Sabritas.DAL\\AdminDAL.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Models\\Sabritas.DAL\\AdminDAL.cs",
@@ -368,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UsuariosDAL.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Models\\Sabritas.DAL\\UsuariosDAL.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Models\\Sabritas.DAL\\UsuariosDAL.cs",
@@ -380,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Negocios.cs",
               "DocumentMoniker": "C:\\Users\\chang\\Downloads\\SabritasMVC\\SabritasMVC\\Models\\Sabritas.BLL\\Negocios.cs",
               "RelativeDocumentMoniker": "SabritasMVC\\Models\\Sabritas.BLL\\Negocios.cs",
